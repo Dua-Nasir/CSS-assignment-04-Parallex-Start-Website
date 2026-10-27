@@ -1,0 +1,205 @@
+@media (max-width:1000px) {
+
+    .logo{
+        margin-left: 10px;
+    }
+
+    .menu-wrapper{
+        flex: none;
+        margin-left: auto;           /* right side par chala jayega */
+        position: relative;
+    }
+
+    .menus{
+        display: block;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        z-index: 30;
+    }
+    
+    .menus:hover{
+        color: rgba(255, 255, 255, 0.904);
+        transition: all 0.2s ease-in;
+    }
+    .menu-box{
+        display: none;               /* shuru mein hidden */
+        position: absolute;
+        top: 100%;
+        right: 0;
+        flex-direction: column;      /* vertical column */
+        align-items: flex-start;
+        gap: 15px;
+        width: 220px;
+        padding: 20px;
+        background-color: white;
+        height: 100vh;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 20px;
+        z-index: 100;
+    }
+
+    nav a{
+      color: black;
+    }
+
+    nav a:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .menu-wrapper:hover .menu-box{
+        display: flex;               /* hover par show */
+    }
+
+    h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+/* SECOND HERO BANNER */
+    
+    .main-hero2{
+        display: block;
+        align-items: center;
+    }
+
+    .hero2-1{
+        margin: auto;
+        width: auto;
+        margin: 10px;
+    }
+
+    /* THIRD HERO BANNER */
+
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero3{
+        padding: 60px;
+    }
+
+    /* FOURTH HERO BANNER */
+    
+    .hero4{
+        padding: 40px;
+        height: auto;
+    }
+
+    .numbers{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pp{
+        text-align: center;
+    }
+
+    /* FIVTH HERO BANNER */
+
+        .form {
+        width: 100%;
+        max-width: 600px;
+        padding: 20px;
+    }
+
+    .form form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form br {
+        display: none;
+    }
+
+    .input,
+    textarea,
+    button {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .input {
+        height: 55px;
+    }
+
+    textarea {
+        height: 140px;
+        resize: none;
+    }
+
+    button {
+        height: 55px;
+    }
+}
+
+
+@media (max-width: 550px){
+    .hero-h1{
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .hero-p{
+        text-align: center;
+    }
+    
+
+    .hero3{
+        height: 1000px;
+    }
+
+    .hero4{
+         height: 1000px;
+    }
+    
+    .hero5{
+         height: 850px;
+    }
+
+    .main-hero5 {
+        padding: 30px 16px;
+    }
+
+    .main-hero5 h1 {
+        font-size: 1.9rem;
+        letter-spacing: 1px;
+    }
+
+    .main-hero5 p {
+        font-size: 0.7rem;
+        letter-spacing: 0.5px;
+        line-height: 1.6;
+        margin: 8px 0 24px;
+    }
+
+    .form form {
+        gap: 14px;
+    }
+
+    .input {
+        height: 50px;
+        padding: 10px 14px;
+        font-size: 0.9rem;
+    }
+
+    textarea {
+        height: 120px;
+        font-size: 0.9rem;
+    }
+
+    button {
+        height: 50px;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+
+}
+
